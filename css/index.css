@@ -135,4 +135,111 @@ margin-top: 40px;
   color: #5E0080 !important;
   background-color: white !important;
 }
+
+.p1{
+    width: 18rem;
+    text-align: center;
+    border-radius: 15px  !important;
+}
+.p2{
+    width: 20rem;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px !important;
+}  
+.cont-p2{
+    display: flex;
+    gap: 53px;
+    justify-content: center;
+    margin-top: 60px;
+}
+ 
+.bg-p1, .p1 {
+    background: #d461fa !important;
+    color: white !important;    
+    font-size: 15px;
+}
+.bg-p2, .p2 {
+    background-color: #aa1fdd !important;
+    color: white !important; 
+    font-style: normal; 
+    font-size: 16px;
+}
+
+.card-title-p2{
+   font-family: 'Galdeano', sans-serif;
+   color: white !important;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 42px;
+}
+.card-title-p1{
+    font-family: 'Galdeano', sans-serif;
+    color: white !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+}
+.preco{
+    font-size: 27px;
+    color: white; 
+    font-family: ui-rounded;
+    text-decoration: none !important;
+}
+.preco:hover{ 
+    color: #5E0080;  
+}
+.p2:hover, .p1:hover{ 
+    transform: scale(1.02);
+}
+.cont-p2{
+    align-items: center;
+}
+.preco1{
+    font-size: 22px;
+    color: white; 
+    font-family: ui-rounded;
+    text-decoration: none !important;
+}
+.preco1:hover{ 
+    color: #5E0080;  
+} 
+.card-plano1, .card-plano2{
+    background: #E18DFE;
+    color: #5E0080;
+    width: 100px;
+    border-radius: 7px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none !important;
+}
+.p-p2, .p-p1{
+    justify-content: center;
+    display: flex;
+}
+.card-plano1:hover, .card-plano2:hover{
+    color: rgb(125, 5, 194) !important;
+}
+.list-group-item, .list-group-flush{
+    border: transparent !important;
+}
+.title-plano{
+   color: #420059
+}
+.title-plano {
+    margin-top: 40px;
+  }
+  
+  .cont-p2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
   
