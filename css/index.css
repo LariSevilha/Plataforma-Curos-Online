@@ -286,4 +286,42 @@ margin-top: 40px;
       flex: 1;
       margin: 0 10px;
     }
+  } 
+
+.cont-alunos { 
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    margin-top: 45px;
   }
+  
+  .cont-alunos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  .cont-alunos img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+.p-matri{ 
+    background: #7C00A8;
+    width: 110px;
+    text-align: center;
+    border-radius: 18px;
+}
+.p-matri-button{
+    display: flex;
+    justify-content: center;
+}
+.card-matricula{
+    color: #E18DFE;
+    text-decoration: none;
+}
+.card-matricula:hover{
+color: white;
+}
