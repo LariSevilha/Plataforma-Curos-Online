@@ -324,4 +324,52 @@ margin-top: 40px;
 }
 .card-matricula:hover{
 color: white;
+} 
+
+.cont-prof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cont-prof div {
+    margin: 10px;
+    max-width: 200px;
+}
+
+.cont-prof img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .cont-prof div {
+        max-width: 150px;
+    }
+
+    .cont-prof {
+        margin-top: 20px;
+    }
+}
+.profs{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #420059;
+}
+.text-prof{
+    background-color: #420059;
+    margin-bottom: -8px !important;
+    color: #d461fa;
+}
+.profs img {
+    background-color: #7C00A8;
+    padding: 10px;
+  }
+.p-nome-prof{
+    text-align: center;
+    color: #d461fa;
+}
+.profs img:hover{
+    transform: scale(1.05);
 }
