@@ -159,4 +159,44 @@ footer {
   .footer-bottom p {
     margin: 0;
   }
-  
+  .es {
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #420059;
+    border-radius: 5px;
+    width: 380px !important;
+    
+  }
+  .es h2 {
+    text-align: center;
+    color: #420059;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .form-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; 
+  }
+  .form-group button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #420059;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+.sec-es{
+padding: 45px;
+}
+.btn{
+  width: 167px;
+}
