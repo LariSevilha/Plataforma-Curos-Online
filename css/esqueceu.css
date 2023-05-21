@@ -200,3 +200,10 @@ padding: 45px;
 .btn{
   width: 167px;
 }
+.a-volt{
+color: #ffff;
+text-decoration: none;
+}
+.a-volt:hover{
+color: #420059;
+}

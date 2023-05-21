@@ -1,162 +1,229 @@
 body {
-    background-color: #E18DFE !important;
-    overflow-x: hidden;
+  background-color: #E18DFE !important;
+  overflow-x: hidden;
 }
 
 .nav {
-    background-color: #5E0080;
+  background-color: #5E0080;
 }
 
 .nav-link {
-    color: white !important;
+  color: white !important;
 }
 
 .icon {
-    color: #5E0080;
+  color: #5E0080;
 }
 
 .search {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 .nav-search {
-    bottom: 8px;
+  bottom: 8px;
 }
 
 @media (max-width: 575.98px) {
-    .navbar-custom {
-        padding: 8px;
-    }
+  .navbar-custom {
+    padding: 8px;
+  }
 
-    .input-group {
-        width: 100%;
-    }
+  .input-group {
+    width: 100%;
+  }
 
-    .form-control {
-        border-radius: 0;
-    }
+  .form-control {
+    border-radius: 0;
+  }
 
-    .search {
-        position: absolute;
-        right: 0;
-    }
+  .search {
+    position: absolute;
+    right: 0;
+  }
 }
+
 @media (min-width: 576px) and (max-width: 991.98px) {
-    .navbar-custom {
-        padding: 12px;
-    }
+  .navbar-custom {
+    padding: 12px;
+  }
 
-    .input-group {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-    }
+  .input-group {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
-    .search {
-        position: absolute;
-        right: 0;
-    }
+  .search {
+    position: absolute;
+    right: 0;
+  }
 }
 
 @media (min-width: 992px) {
-    .navbar-custom {
-        padding: 16px;
-    }
+  .navbar-custom {
+    padding: 16px;
+  }
 
-    .input-group {
-        width: auto;
-        max-width: 500px;
-        margin: 0;
-    }
+  .input-group {
+    width: auto;
+    max-width: 500px;
+    margin: 0;
+  }
 
-    .search {
-        position: relative;
-        right: auto;
-    }
+  .search {
+    position: relative;
+    right: auto;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .navbar-nav {
-        flex-direction: column;
-    }
+  .navbar-nav {
+    flex-direction: column;
+  }
 
-    .navbar-nav .nav-item {
-        margin-bottom: 8px;
-    }
+  .navbar-nav .nav-item {
+    margin-bottom: 8px;
+  }
 }
 
 @media (min-width: 576px) {
-    .navbar-nav {
-        flex-direction: row;
-    }
+  .navbar-nav {
+    flex-direction: row;
+  }
 
-     
-} 
+
+}
+
 footer {
-    background-color: #420059;
-    color: #fff;
-    padding: 20px 0;
+  background-color: #420059;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-menu ul li {
+  margin-right: 10px;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-menu ul li a:hover {
+  color: #ccc;
+}
+
+.footer-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-social ul li {
+  margin-right: 10px;
+}
+
+.footer-social ul li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.quadro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagem {
+  width: 258px;
+  height: 221px;
+  border: 2px solid #ff00ff;
+  border-radius: 8px;
+}
+
+.descricao {
+  text-align: center;
+  margin-top: 5px;
+  color: #420059;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px;
   }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .footer-logo img {
-    width: 100px;
-    height: auto;
-  }
-  
-  .footer-menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .footer-menu ul li {
-    margin-right: 10px;
-  }
-  
-  .footer-menu ul li a {
-    text-decoration: none;
-    color: #fff;
-  }
-  
-  .footer-menu ul li a:hover {
-    color: #ccc;
-  }
-  
-  .footer-social ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .footer-social ul li {
-    margin-right: 10px;
-  }
-  
-  .footer-social ul li a {
-    color: #fff;
-    font-size: 18px;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .footer-bottom p {
-    margin: 0;
-  }
-  
+
+}
+.quadro figure {
+  position: relative;
+}
+
+.quadro figure img {
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  z-index: 1;
+}
+
+.quadro figure:hover img {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.quadro figure img:not(:hover) {
+  transform: scale(1);
+}
+
+.h3{
+  color: #420059;
+}
+.btn{
+background-color: #420059 !important;
+}
+.a-volt{
+  color: #E18DFE !important;
+  text-decoration: none;
+}
