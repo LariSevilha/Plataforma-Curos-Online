@@ -392,7 +392,7 @@ color: white;
     justify-content: center;
 }
 .card-t{
-  color: #aa1fdd !important;
+  color: #d461fa !important;
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -483,4 +483,18 @@ footer {
     margin: 0;
   }
   
- 
+ .btn-pro{
+    display: flex;
+    justify-content: center;
+    background-color: #420059;
+    padding: 20px;
+ }
+ .a-pro{
+    color: #d461fa;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+ }
+ .a-pro:hover{
+   color: #fff;
+ }

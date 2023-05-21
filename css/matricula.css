@@ -229,8 +229,6 @@ footer {
     border-radius: 4px;
     background-color: #fff;
   }
-  
-  
   input[type="date"] {
     height: 38px;
   }
@@ -240,4 +238,13 @@ footer {
 h2{
 color: #420059;
 font-family: Arial, Helvetica, sans-serif;
+}
+.btn-voltar{
+  display: flex;
+  justify-content: right;
+  margin: 19px;
+}
+.btn-v{
+  background-color: #420059 !important;
+  color: #E18DFE !important;
 }

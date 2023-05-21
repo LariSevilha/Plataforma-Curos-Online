@@ -161,3 +161,101 @@ footer {
     margin: 0;
   }
   
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.li {
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: #E18DFE;
+    background-color: #420059;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.li img {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .li img:hover {
+    transform: scale(1.2);
+  }
+  
+   img:not(:hover) {
+    transform: scale(1);
+  }
+h1{
+    color: #420059;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 20px;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease;
+    color: #420059;
+    
+    
+  }
+  
+  .pagination a:hover {
+    background-color: #420059;
+    color: #f2f2f2;
+  }
+  
+  .pagination .ellipsis {
+    margin: 0 4px;
+    font-weight: bold;
+  }
+.btn-voltar{
+    display: flex;
+    justify-content: right;
+    margin: 19px;
+}
+.btn-v{
+    background-color: #420059 !important;
+    color: #E18DFE !important;
+}
+@media (max-width: 768px) {
+  .pagination a {
+    padding: 6px 12px;
+    margin: 0 2px;
+  }
+}
