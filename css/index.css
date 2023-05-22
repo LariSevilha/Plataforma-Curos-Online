@@ -339,7 +339,7 @@ color: white;
 
 .cont-prof img {
     width: 100%;
-    height: auto;
+    height: 215px;
 }
 
 @media screen and (max-width: 768px) {
@@ -497,4 +497,4 @@ footer {
  }
  .a-pro:hover{
    color: #fff;
- }
+ } 
