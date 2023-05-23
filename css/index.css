@@ -373,18 +373,9 @@ color: white;
 .profs img:hover{
     transform: scale(1.05);
 }
-
-.img-time {
-    background-image: url('../images/image 5.png');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ 
 .description {
-    color: white;
+    color: #420059;
     text-align: center;
 }
 .t-button{

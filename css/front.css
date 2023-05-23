@@ -157,3 +157,55 @@ footer {
 .footer-bottom p {
   margin: 0;
 }
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56%;  
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.title{
+  color: #420059;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 37px; 
+}
+.p-matri{ 
+  background: #7C00A8;
+  width: 258px;
+  height: 48px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-matri-button{
+  display: flex;
+  justify-content: center;
+  
+}
+.card-matricula{
+  color: #E18DFE;
+  text-decoration: none;
+  font-size: 20px;
+}
+.card-matricula:hover{
+  color: white;
+} 
+.btn-voltar{
+  display: flex;
+  justify-content: right; 
+  margin-bottom: 56px;
+  margin-top: -53px;
+}
+.btn-v{
+  background-color: #7C00A8 !important;
+  color: white !important;
+}
