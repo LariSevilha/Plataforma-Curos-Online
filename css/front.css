@@ -166,6 +166,9 @@ footer {
   margin-bottom: 20px;
 }
 
+.car{
+  margin-left: 20px !important; 
+}
 .video-wrapper iframe {
   position: absolute;
   top: 0;

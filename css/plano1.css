@@ -23,6 +23,9 @@ body {
     bottom: 8px;
 }
 
+.car{
+  margin-left: 20px !important; 
+}
 @media (max-width: 575.98px) {
     .navbar-custom {
         padding: 8px;

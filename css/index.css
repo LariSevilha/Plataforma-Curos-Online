@@ -489,3 +489,18 @@ footer {
  .a-pro:hover{
    color: #fff;
  } 
+ 
+ .card:hover {
+    background-color: #f2f2f2;
+    color: black; 
+  }
+.btn-compra{
+    background-color: #420059 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: transparent !important;
+} 
+.btn-vermais{
+    background-color: #420059 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: transparent !important;
+} 

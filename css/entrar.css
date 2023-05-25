@@ -19,6 +19,9 @@ body {
     background-color: white !important;
 }
 
+.car{
+    margin-left: 20px !important; 
+  }
 .nav-search {
     bottom: 8px;
 }

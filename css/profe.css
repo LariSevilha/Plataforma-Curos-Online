@@ -259,3 +259,7 @@ h1{
     margin: 0 2px;
   }
 }
+
+.car{
+  margin-left: 20px !important; 
+}
