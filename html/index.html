@@ -239,9 +239,28 @@
       </div>
     </footer>
     
-    
+    <a href="#topo" class="botao-voltar-ao-topo"><i class="bi bi-arrow-up-circle icone-voltar-ao-topo"></i></a>
+
 
   </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {  
+      $('.botao-voltar-ao-topo').fadeIn();
+    } else {
+      $('.botao-voltar-ao-topo').fadeOut();
+    }
+  });
+
+  $('.botao-voltar-ao-topo').click(function() {
+    $('html, body').animate({scrollTop: 0}, 800); 
+    return false;
+  });
+});
+</script>
+
   <script>
     function adicionarAoCarrinho() {
       alert("Curso adicionado ao carrinho!");

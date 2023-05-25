@@ -508,3 +508,23 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+.botao-voltar-ao-topo {
+    display: none;  
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #420059;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+   
+.icone-voltar-ao-topo {
+    font-size: 30px;  
+}
+.icone-voltar-ao-topo {
+    color: white !important;
+}
+  
