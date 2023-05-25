@@ -503,4 +503,8 @@ footer {
     background-color: #420059 !important;
     font-family: Arial, Helvetica, sans-serif;
     border-color: transparent !important;
-} 
+}   
+.planos{
+    display: flex;
+    justify-content: center;
+}

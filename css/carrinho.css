@@ -163,3 +163,69 @@ footer {
   .car{
     margin-left: 20px !important; 
   }
+  
+  .card-custom {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .card-custom-header {
+    background-color: #420059;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .card-custom-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+.custom-subtitle {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card-custom-body {
+    padding: 20px;
+    gap: 8px;
+  }
+  
+  .card-custom-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-custom {
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+  }
+  
+  
+  .btn-compra {
+    width: fit-content;
+    background-color: #420059;
+    border-color: #420059;
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .btn-compra:hover{
+    color: #E18DFE !important;
+  }
+  .btn-vermais {
+    width: fit-content;
+    background-color: #420059;
+    border-color: #420059;
+    text-decoration: none;
+    color: #fff;
+  }
+.btn-vermais:hover{
+  color: #E18DFE !important;
+  
+} 
