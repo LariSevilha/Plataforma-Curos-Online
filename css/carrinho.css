@@ -205,14 +205,13 @@ footer {
     padding: 10px 20px;
     text-transform: uppercase;
   }
-  
-  
   .btn-compra {
     width: fit-content;
     background-color: #420059;
     border-color: #420059;
     color: #fff;
     margin-right: 10px;
+    font-size: 14px;
     text-decoration: none;
   }
   .btn-compra:hover{
@@ -224,6 +223,7 @@ footer {
     border-color: #420059;
     text-decoration: none;
     color: #fff;
+    font-size: 14px;
   }
 .btn-vermais:hover{
   color: #E18DFE !important;
