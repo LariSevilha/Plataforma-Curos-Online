@@ -19,13 +19,13 @@ body {
     background-color: white !important;
 }
 
+.car{
+  margin-left: 20px !important; 
+}
 .nav-search {
     bottom: 8px;
 }
 
-.car{
-  margin-left: 20px !important; 
-}
 @media (max-width: 575.98px) {
     .navbar-custom {
         padding: 8px;
@@ -94,6 +94,7 @@ body {
     }
 
      
+     
 } 
 footer {
     background-color: #420059;
@@ -161,5 +162,92 @@ footer {
   
   .footer-bottom p {
     margin: 0;
-  }
+  } 
+
+.cont {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #420059 !important;
+  border-radius: 15px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #E18DFE;
+  text-transform: uppercase; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input[type="text"],
+textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: 1px solid grey; 
+  font-size: 14px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #E18DFE;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
   
+#messageBox {
+  margin-top: 10px;
+  display: none;
+}
+
+#isGift:checked ~ #messageBox {
+  display: block;
+}
+
+textarea {
+  height: 80px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col {
+  flex: 1;
+  padding: 0 10px;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+} 
+.pa{
+width: 150px;
+} 
+#cancelButton{
+    background-color: red !important;
+    color: white;
+    width: 127px;
+    height: 47px;
+    border: 1px solid;
+    border-radius: 6px;
+}
