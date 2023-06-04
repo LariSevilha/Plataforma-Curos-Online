@@ -186,7 +186,7 @@
         <div class="jales"><img src="../images/jales.png" alt="">       <p class="p-nome-prof">Jales Lúcio  </p></div>
         <div><img src="../images/guanabara.jpg" alt="">     <p class="p-nome-prof">Gustavo Guanabara</p></div>
         <div><img src="../images/jaksonPires.jpeg" alt="">  <p class="p-nome-prof">Jackson Pires</p></div>
-        <div><img src="../images/diegoFernandes.jpg" alt=""><p class="p-nome-prof">Diego Fernandes</p></div>
+        <div><img src="../images/picollo.jpeg" alt=""><p class="p-nome-prof"> Luiz Picolo</p></div>
       </div>
     </section>
     <div class="btn-pro">
@@ -247,14 +247,18 @@
 <script>
 $(document).ready(function() {
   $(window).scroll(function() {
+    // Verifica se a posição do scroll é maior que 100 pixels a partir do topo
     if ($(this).scrollTop() > 100) {  
+          // Se for maior que 100, exibe o botão de voltar ao topo
       $('.botao-voltar-ao-topo').fadeIn();
     } else {
+    // senao esconde o botão 
       $('.botao-voltar-ao-topo').fadeOut();
     }
   });
 
   $('.botao-voltar-ao-topo').click(function() {
+      // Anima o scroll da página para o topo com duração de 800 milissegundos
     $('html, body').animate({scrollTop: 0}, 800); 
     return false;
   });

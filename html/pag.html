@@ -96,21 +96,21 @@
             <div class="row">
               <div class="col">
                 <label for="cep">CEP:</label>
-                <input type="text" id="cep" name="cep" required>
+                <input type="number" id="cep" name="cep" required>
               </div>
               <div class="col">
                 <label for="cardNumber">Número do Cartão:</label>
-                <input type="text" id="cardNumber" name="cardNumber" required>
+                <input type="number" id="cardNumber" name="cardNumber" required>
               </div>
             </div>
             <div class="row">
               <div class="col">
                 <label for="expiry">Data de Validade:</label>
-                <input type="text" id="expiry" name="expiry" required>
+                <input type="date" id="expiry" name="expiry" required>
               </div>
               <div class="col">
                 <label for="cvv">CVV:</label>
-                <input type="text" id="cvv" name="cvv" required>
+                <input type="number" id="cvv" name="cvv" required>
               </div>
             </div>
             <div class="d-flex justify-content-between">
@@ -158,19 +158,27 @@
           <p>Telefone: (67) 9.9931-2105 | E-mail: sevilha.larissa10@.gmail.com</p>
         </div>
       </footer>
-      <script> 
-        const cancelButton = document.getElementById('cancelButton'); 
-        cancelButton.addEventListener('click', function() { 
-          window.location.href = 'carrinho.html';
+      <script>
+        const payButton = document.getElementById('payButton');
+      
+        payButton.addEventListener('click', function(event) { 
+      
+          const fullName = document.getElementById('fullName').value;
+          const address = document.getElementById('address').value;
+          const cep = document.getElementById('cep').value;
+          const cardNumber = document.getElementById('cardNumber').value;
+          const expiry = document.getElementById('expiry').value;
+          const cvv = document.getElementById('cvv').value;
+      
+          if (!fullName || !address || !cep || !cardNumber || !expiry || !cvv) {
+            alert('Por favor, preencha todos os campos antes de prosseguir.');
+          } else {
+            alert('Seu pagamento está sendo processado, seu curso será liberado em breve.');
+            document.getElementById('paymentForm').submit(); // Envia o formulário
+          }
         });
       </script>
-    <script> 
-      const payButton = document.getElementById('payButton');
-     
-      payButton.addEventListener('click', function() { 
-        alert("Seu pagamento está sendo processado, seu curso será liberado em breve.");
-      });
-    </script>
+      
     <script>
       $(document).ready(function () {
         $('.toast').toast('show');

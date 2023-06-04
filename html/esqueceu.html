@@ -130,15 +130,17 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
     <script>
+      // Obtém a referência do formulário de recuperação de senha pelo ID
       const forgotPasswordForm = document.getElementById('forgotPasswordForm');
-  
+      // Adiciona um ouvinte de evento para o envio do formulário
       forgotPasswordForm.addEventListener('submit', function(event) {
-        event.preventDefault(); 
-  
+        // Obtém o valor do campo de email pelo ID
         const email = document.getElementById('email').value;
+        // Exibe um alerta com a mensagem de que um email de redefinição de senha será enviado para o email fornecido
         alert('Um email de redefinição de senha será enviado para: ' + email);
       });
     </script>
+    
     <script>
       $(document).ready(function () {
         $('.toast').toast('show');
