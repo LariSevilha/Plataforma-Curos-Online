@@ -1,5 +1,5 @@
 body {
-    background-color: #E18DFE !important;
+    background-color: #E18DFE !important; 
     overflow-x: hidden;
 }
 
@@ -25,75 +25,6 @@ body {
 
 .car{
   margin-left: 20px !important; 
-}
-@media (max-width: 575.98px) {
-    .navbar-custom {
-        padding: 8px;
-    }
-
-    .input-group {
-        width: 100%;
-    }
-
-    .form-control {
-        border-radius: 0;
-    }
-
-    .search {
-        position: absolute;
-        right: 0;
-    }
-}
-@media (min-width: 576px) and (max-width: 991.98px) {
-    .navbar-custom {
-        padding: 12px;
-    }
-
-    .input-group {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .search {
-        position: absolute;
-        right: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    .navbar-custom {
-        padding: 16px;
-    }
-
-    .input-group {
-        width: auto;
-        max-width: 500px;
-        margin: 0;
-    }
-
-    .search {
-        position: relative;
-        right: auto;
-    }
-}
-
-@media (max-width: 575.98px) {
-    .navbar-nav {
-        flex-direction: column;
-    }
-
-    .navbar-nav .nav-item {
-        margin-bottom: 8px;
-    }
-}
-
-@media (min-width: 576px) {
-    .navbar-nav {
-        flex-direction: row;
-    }
-
-     
 } 
 footer {
     background-color: #420059;

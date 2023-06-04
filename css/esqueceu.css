@@ -210,3 +210,30 @@ text-decoration: none;
 .a-volt:hover{
 color: #420059;
 }
+@media (max-width: 576px) {
+  .es {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .es {
+    width: 100% !important;
+    max-width: 400px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .es {
+    width: 100% !important;
+    max-width: 500px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .es {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+}
